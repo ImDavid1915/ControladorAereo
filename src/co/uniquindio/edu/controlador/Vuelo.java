@@ -6,7 +6,7 @@ public class Vuelo {
 
     private Cliente cliente;
     private String ciudadOrigen;
-    private String ciudadDestino;
+    private int ciudadDestino;
     private String tipoClase;
     private String fechaVuelo;
     private Date fechaCompra;
@@ -14,7 +14,7 @@ public class Vuelo {
     public Vuelo(){
     }
 
-    public Vuelo(Cliente cliente, String ciudadOrigen, String ciudadDestino, String tipoClase, String fechaVuelo, Date fechaCompra) {
+    public Vuelo(Cliente cliente, String ciudadOrigen, int ciudadDestino, String tipoClase, String fechaVuelo, Date fechaCompra) {
         this.cliente = cliente;
         this.ciudadOrigen = ciudadOrigen;
         this.ciudadDestino = ciudadDestino;
@@ -40,10 +40,20 @@ public class Vuelo {
     }
 
     public String getCiudadDestino() {
-        return ciudadDestino;
+        String ciudadString = "";
+        if(ciudadDestino == 1){
+            ciudadString = "MEDELLIN";
+        } else if (ciudadDestino == 2) {
+            ciudadString = "BOGOTA";
+        } else if (ciudadDestino == 3) {
+            ciudadString = "CALI";
+        } else if (ciudadDestino == 4) {
+            ciudadString = "CARTAGENA";
+        }
+        return ciudadString;
     }
 
-    public void setCiudadDestino(String ciudadDestino) {
+    public void setCiudadDestino(int ciudadDestino) {
         this.ciudadDestino = ciudadDestino;
     }
 

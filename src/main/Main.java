@@ -14,16 +14,11 @@ public class Main {
         String nombreCompleto = MetodoDatos.leerString("Nombre completo del pasajero\n");
         int numCedula = MetodoDatos.leerInt("Numero de cedula del pasajero\n");
         String ciudadOrigen = MetodoDatos.leerString("¿Desde que ciudad desea viajar?").toUpperCase();
-        //String ciudadDestino = MetodoDatos.leerString("Digite la ciudad de destino \n\nMedellin \nBogota \nCali \nCartagena").toUpperCase();
+        int ciudadDestino = MetodoDatos.leerInt("Digite la ciudad de destino \n\n1) Medellin \n2) Bogota \n3) Cali \n4) Cartagena");
 
-        String ciudadDestino;
-        do {
-            ciudadDestino = MetodoDatos.leerString("Digite la ciudad de destino \n\nMedellin \nBogota \nCali \nCartagena").toUpperCase();
-
-            if(!ciudadDestino.equalsIgnoreCase("medellin")){
-                MetodoDatos.imprimirTexto("Ha digitado una ciudad erronea.");
-            }
-        }while (!ciudadDestino.equalsIgnoreCase("medellin") || !ciudadDestino.equalsIgnoreCase("cali"));
+        while(ciudadDestino < 1 || ciudadDestino >4){
+            ciudadDestino = MetodoDatos.leerInt("\nHa digitado una ciudad erronea \n\nDigite la ciudad de destino \n\n1) Medellin \n2) Bogota \n3) Cali \n4) Cartagena");
+        }
 
 
         //if(ciudadDestino == null || ciudadDestino != "MEDELLIN" || ciudadDestino != "BOGOTA" || ciudadDestino != "CALI" || ciudadDestino != "CARTAGENA"){
@@ -50,11 +45,11 @@ public class Main {
         MetodoDatos.imprimirTexto(tiquete.toString());
     }
 
-    public static String seleccionarFechaVuelo(String ciudadOrigen){
+    public static String seleccionarFechaVuelo(int ciudadOrigen){
 
         String fechas = "(fecha no escogida)";
 
-        if(ciudadOrigen.equalsIgnoreCase("Medellin")){
+        if(ciudadOrigen == 1){
             int seleccionNumero = MetodoDatos.leerInt("Seleccione el horario a conveniencia \n\n1) 10 de Septiembre 5:17pm \n2) 12 de Septiembre 10:26am \n3) 15 de Septiembre 12:58pm");
             switch (seleccionNumero){
                 case 1: fechas = "10 de Septiembre 5:17pm";
@@ -64,7 +59,7 @@ public class Main {
                 case 3: fechas = "15 de Septiembre 12:58pm";
                     break;
             }
-        } else if(ciudadOrigen.equalsIgnoreCase("Bogota")){
+        } else if(ciudadOrigen == 2){
             int seleccionNumero = MetodoDatos.leerInt("Seleccione el horario a conveniencia \n\n1) 16 de Octubre 4:28pm \n2) 18 de Octubre 7:54am \n3) 19 de Octubre 1:20pm");
             switch (seleccionNumero){
                 case 1: fechas = "16 de Octubre 4:28pm";
@@ -74,7 +69,7 @@ public class Main {
                 case 3: fechas = "19 de Octubre 1:20pm";
                     break;
             }
-        } else if (ciudadOrigen.equalsIgnoreCase("Cali")) {
+        } else if (ciudadOrigen == 3) {
             int seleccionNumero = MetodoDatos.leerInt("Seleccione el horario a conveniencia \n\n1) 2 de Octubre 5:58pm \n2) 5 de Octubre 5:45am \n3) 8 de Octubre 8:40pm");
             switch (seleccionNumero){
                 case 1: fechas = "2 de Octubre 5:58pm";
@@ -84,7 +79,7 @@ public class Main {
                 case 3: fechas = "8 de Octubre 8:40pm";
                     break;
             }
-        } else if (ciudadOrigen.equalsIgnoreCase("Cartagena")) {
+        } else if (ciudadOrigen == 4) {
             int seleccionNumero = MetodoDatos.leerInt("Seleccione el horario a conveniencia \n\n1) 11 de Noviembre 9:25pm \n2) 8 de Noviembre 5:22am \n3) 14 de Noviembre 3:40pm");
             switch (seleccionNumero){
                 case 1: fechas = "11 de Noviembre 9:25pm";

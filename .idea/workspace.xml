@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e62f99-df84-4d7e-ba27-c45a2b7a4b42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="c1e62f99-df84-4d7e-ba27-c45a2b7a4b42" name="Changes" comment="Actualizacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/MetodoDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/MetodoDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Tiquete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Tiquete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Vuelo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660094748874</updated>
     </task>
+    <task id="LOCAL-00001" summary="Actualizacion">
+      <created>1660108200269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660108200269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Actualizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion" />
   </component>
 </project>

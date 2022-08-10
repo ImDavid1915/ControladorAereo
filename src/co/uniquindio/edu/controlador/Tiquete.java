@@ -45,7 +45,7 @@ public class Tiquete {
                 "\nCiudad de origen: "+ vuelo.getCiudadOrigen() + "\nCiudad de destino: "+ vuelo.getCiudadDestino()+
                 "\nTipo de clase: " + vuelo.getTipoClase() + "\nFecha seleccionada: "+vuelo.getFechaVuelo()+
                 "\n\nFecha de compra: "+vuelo.getFechaCompra()+
-                "\nTotal a pagar: $"+precio;
+                "\nTotal a pagar: COP$"+precio;
 
     }
 }
