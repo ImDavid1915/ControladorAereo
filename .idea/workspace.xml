@@ -1,14 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e62f99-df84-4d7e-ba27-c45a2b7a4b42" name="Changes" comment="" />
+    <list default="true" id="c1e62f99-df84-4d7e-ba27-c45a2b7a4b42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/MetodoDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/MetodoDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Tiquete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Tiquete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Vuelo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="cef8931e-3f8e-4645-bceb-2621818e9328" />
+        <option name="url" value="https://github.com/ImDavid1915/VentaVuelosOnline.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2D8xuSCGzFCpFNXNoIbjuxbUtdI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,6 +53,39 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="VentaOnlineVuelos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="VentaOnlineVuelos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="VentaOnlineVuelos" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +96,16 @@
       <updated>1660094748874</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
