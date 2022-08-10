@@ -21,10 +21,6 @@ public class Main {
         }
 
 
-        //if(ciudadDestino == null || ciudadDestino != "MEDELLIN" || ciudadDestino != "BOGOTA" || ciudadDestino != "CALI" || ciudadDestino != "CARTAGENA"){
-          //  ciudadDestino = MetodoDatos.leerString("\nHa digitado una ciudad erronea \n\nDigite la ciudad de destino \n\nMedellin \nBogota \nCali \nCartagena").toUpperCase();
-        //}
-
         String fechaVuelo = seleccionarFechaVuelo(ciudadDestino);
         boolean esClaseEjecutiva = MetodoDatos.leerBoolean("¿Desea cambiar su tiquete a clase ejecutiva? \n\nHabra un cargo extra en el precio");
 
