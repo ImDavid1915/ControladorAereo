@@ -7,14 +7,14 @@ public class Vuelo {
     private Cliente cliente;
     private String ciudadOrigen;
     private int ciudadDestino;
-    private String tipoClase;
+    private Enum tipoClase;
     private String fechaVuelo;
     private Date fechaCompra;
 
     public Vuelo(){
     }
 
-    public Vuelo(Cliente cliente, String ciudadOrigen, int ciudadDestino, String tipoClase, String fechaVuelo, Date fechaCompra) {
+    public Vuelo(Cliente cliente, String ciudadOrigen, int ciudadDestino, Enum tipoClase, String fechaVuelo, Date fechaCompra) {
         this.cliente = cliente;
         this.ciudadOrigen = ciudadOrigen;
         this.ciudadDestino = ciudadDestino;
@@ -57,11 +57,11 @@ public class Vuelo {
         this.ciudadDestino = ciudadDestino;
     }
 
-    public String getTipoClase() {
+    public Enum getTipoClase() {
         return tipoClase;
     }
 
-    public void setTipoClase(String tipoClase) {
+    public void setTipoClase(Enum tipoClase) {
         this.tipoClase = tipoClase;
     }
 

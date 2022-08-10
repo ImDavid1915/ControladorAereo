@@ -10,7 +10,7 @@ public class Main {
 
         //Datos Ingresados
         int precioFinal = 895000;
-        String tipoClase = "Clase Turista";
+        Enum tipoClase = TipoClase.CLASE_TURISTA;
         String nombreCompleto = MetodoDatos.leerString("Nombre completo del pasajero\n");
         int numCedula = MetodoDatos.leerInt("Numero de cedula del pasajero\n");
         String ciudadOrigen = MetodoDatos.leerString("¿Desde que ciudad desea viajar?").toUpperCase();
@@ -25,7 +25,7 @@ public class Main {
 
         if (esClaseEjecutiva){
             precioFinal = precioFinal + 257000;
-            tipoClase = "Clase Ejecutiva";
+            tipoClase = TipoClase.CLASE_EJECUTIVA;
         }
 
         //Creacion de objetos
