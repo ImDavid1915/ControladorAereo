@@ -14,17 +14,16 @@ public class Main {
         String nombreCompleto = MetodoDatos.leerString("Nombre completo del pasajero\n");
         int numCedula = MetodoDatos.leerInt("Numero de cedula del pasajero\n");
         String ciudadOrigen = MetodoDatos.leerString("¿Desde que ciudad desea viajar?").toUpperCase();
-        int ciudadDestino = MetodoDatos.leerInt("Digite la ciudad de destino \n\n1) Medellin \n2) Bogota \n3) Cali \n4) Cartagena");
+        int ciudadDestino = MetodoDatos.leerInt("Digite el numero de la ciudad de destino \n\n1) Medellin \n2) Bogota \n3) Cali \n4) Cartagena");
 
         while(ciudadDestino < 1 || ciudadDestino >4){
-            ciudadDestino = MetodoDatos.leerInt("\nHa digitado una ciudad erronea \n\nDigite la ciudad de destino \n\n1) Medellin \n2) Bogota \n3) Cali \n4) Cartagena");
+            ciudadDestino = MetodoDatos.leerInt("\nHa digitado una ciudad erronea \n\nDigite el numero de la ciudad de destino \n\n1) Medellin \n2) Bogota \n3) Cali \n4) Cartagena");
         }
-
 
         String fechaVuelo = seleccionarFechaVuelo(ciudadDestino);
         boolean esClaseEjecutiva = MetodoDatos.leerBoolean("¿Desea cambiar su tiquete a clase ejecutiva? \n\nHabra un cargo extra en el precio");
 
-        if (esClaseEjecutiva == true){
+        if (esClaseEjecutiva){
             precioFinal = precioFinal + 257000;
             tipoClase = "Clase Ejecutiva";
         }

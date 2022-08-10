@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e62f99-df84-4d7e-ba27-c45a2b7a4b42" name="Changes" comment="Actualizacion">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Vuelo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/co/uniquindio/edu/controlador/Vuelo.java" afterDir="false" />
+    <list default="true" id="c1e62f99-df84-4d7e-ba27-c45a2b7a4b42" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660108200269</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update2">
+      <created>1660108961222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660108961222</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update">
+      <created>1660109007398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660109007398</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Actualizacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion" />
+    <MESSAGE value="Update2" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
